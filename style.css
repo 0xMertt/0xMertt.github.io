@@ -14,5 +14,5 @@ body {
     /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: rgb(255, 255, 255);
     opacity: 0.5;
-    /* Firefox */
+    font: 1rem Inconsolata, monospace;
 }
