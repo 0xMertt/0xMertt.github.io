@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.container {
+    color: rgb(255, 255, 255);
+}
+
+.lines {
+    color: white;
+    font: 1rem Inconsolata, monospace;
+}
