@@ -26,6 +26,15 @@ function clickonbody() {
     window.location.href = "https://twitter.com/intent/tweet?&text=\n" + text + hash
 }
 
-document.onkeypress = function(key_dtl) {
-    clickonbody();
-}
+window.onload = function() {
+
+
+        document.getElementsByName("input")[0].addEventListener('change', doThing);
+
+        function doThing() {
+            if (this.value == "Interstellar") {
+                clickonbody();
+            }
+
+        }
+    } //}
