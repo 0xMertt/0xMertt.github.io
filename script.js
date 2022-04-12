@@ -18,7 +18,6 @@ function generateMixed(n) {
     }
     return res;
 }
-let btn = document.getElementById('xxx');
 
 function clickonbody() {
     var text = "I'm verifying my identity for @TheForeverWar.%0a%0a"
@@ -27,14 +26,10 @@ function clickonbody() {
 }
 
 window.onload = function() {
-
-
         document.getElementsByName("input")[0].addEventListener('change', doThing);
-
         function doThing() {
             if (this.value == "Interstellar") {
                 clickonbody();
             }
-
-        }
-    } //}
+      }
+}
